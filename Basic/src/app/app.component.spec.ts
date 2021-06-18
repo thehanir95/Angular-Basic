@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'Basic'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Basic');
+    expect(app.name).toEqual('Basic');
   });
 
   it('should render title', () => {
