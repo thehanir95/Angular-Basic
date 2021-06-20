@@ -11,7 +11,7 @@ allowNewServer = false;
   constructor() { 
     setTimeout(() => {
       this.allowNewServer = true;
-    }, 2000);
+    }, 2000)
   }
 
   ngOnInit(){
